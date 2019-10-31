@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@arkecosystem/core-utils": "^2.6.0-next.4",
+    "@arkecosystem/crypto": "^2.6.0-next.4",
     "node-fetch": "^2.6.0",
     "yargs": "^14.2.0"
   },

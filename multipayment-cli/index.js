@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const argv = require("yargs").argv;
-const { Transactions, Managers, Identities } = require("@arkecosystem/crypto");
+const { Transactions, Managers } = require("@arkecosystem/crypto");
 
 const exit = err => {
   console.error(err);
