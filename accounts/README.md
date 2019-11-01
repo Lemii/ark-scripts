@@ -23,10 +23,10 @@ Fund all the accounts generated in the `accounts.json` file with:
 node ./fund-accounts.js
 ```
 
-`amount` funded sent to each accounts defaults to 1 _arktoshi_.  Can be customized by passing arguments to the script:  
+`amount` sent to each account defaults to 1 _arktoshi_.  Can be customized by passing arguments to the script:  
 
 ```
 node ./fund-accounts.js --amount 100000000
 ```
 
-Funds will be used from the passphrase that is entered in the project's `config.js` file.
+Funds will be used from the passphrase(s) entered in the project's `config.js` file.
