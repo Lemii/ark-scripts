@@ -6,7 +6,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@arkecosystem/core-magistrate-crypto": "^2.6.0-next.0",
     "@arkecosystem/crypto": "^2.6.0-next.4",
+    "bip39": "^3.0.2",
     "node-fetch": "^2.6.0",
     "yargs": "^14.2.0"
   },

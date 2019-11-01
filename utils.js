@@ -42,4 +42,13 @@ const chunk = (array, size = 40) => {
   return chunked_arr;
 };
 
-module.exports = { broadcast, getNonce, exit, chunk };
+const loadAccounts = () => {
+  try {
+    const accounts = require("./accounts/accounts.json");
+    return accounts;
+  } catch {
+    exit("Could not load accounts");
+  }
+};
+
+module.exports = { broadcast, getNonce, exit, chunk, loadAccounts };
