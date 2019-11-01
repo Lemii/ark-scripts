@@ -1,12 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const argv = require("yargs").argv;
+const { exit } = require("../utils");
 const { Transactions, Managers } = require("@arkecosystem/crypto");
-
-const exit = err => {
-  console.error(err);
-  process.exit(1);
-};
 
 // Set height to specific 2.6 milestone to enable V2 transactions in the BuilderFactory
 Managers.configManager.setHeight(4006000);
